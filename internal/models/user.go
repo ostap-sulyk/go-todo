@@ -1,11 +1,7 @@
-package dtos
+package models
 
-type CreateProfileRequestDTO struct {
+type CreateUserRequest struct {
 	Email          string `json:"email"`
 	Password       string `json:"password"`
 	RepeatPassword string `json:"repeat_password"`
-}
-
-type CreateProfileResponseDTO struct {
-	URI string
 }

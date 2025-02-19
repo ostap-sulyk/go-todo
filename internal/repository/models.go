@@ -15,6 +15,7 @@ type Todo struct {
 	Completed   pgtype.Bool
 	CreatedAt   pgtype.Timestamp
 	UpdatedAt   pgtype.Timestamp
+	UserID      pgtype.Int8
 }
 
 type User struct {
